@@ -219,6 +219,13 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        }
 }
 
 /*Media query: laptops and larger (992px and above)*/
