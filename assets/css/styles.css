@@ -1,5 +1,5 @@
 /*Google Fonts import*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /*asterisk wildcard*/
 * {
@@ -144,10 +144,20 @@ main {
 }
 
 #circle-cover-bg {
-    height: 90vh;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    background: url("../images/reasons.webp") no-repeat top center/cover;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*footer*/
