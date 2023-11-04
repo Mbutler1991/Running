@@ -145,7 +145,7 @@ main {
 
 #circle-cover-bg {
     background: url('../images/reasons.webp') no-repeat top center / cover;
-    height: 90vw;
+    height: 90vh;
     width: 90vw;
     margin-bottom: 20px;
     /* Makes the square image into a circle */
