@@ -161,7 +161,7 @@ main {
 }
 
 #times {
-    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    background: url("../images/dublin-city.webp") no-repeat center center/cover;
     display: flex;
     flex-wrap: wrap;
 }
