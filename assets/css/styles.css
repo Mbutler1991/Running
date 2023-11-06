@@ -199,6 +199,28 @@ main {
     line-height: 0;
 }
 
+/*signup page*/
+
+#signup {
+    background: url("../images/signup-image.webp") no-repeat center center / cover;
+}
+
+#signup-form {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 150px;
+    max-width: 400px;
+}
+
+#text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
